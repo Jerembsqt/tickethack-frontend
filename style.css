@@ -116,3 +116,15 @@ body {
     background-color: rgb(0, 0, 170);
     color: white;
 }
+#purchase-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.purchase-link {
+    text-decoration: none;
+    color: white;
+}
