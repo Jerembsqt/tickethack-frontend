@@ -29,15 +29,19 @@ body {
     justify-content: end;
     align-items: center;
     padding: 0 20px;
+    pointer-events: none;
 }
 .cart, .bookings {
     margin-left: 20px;
     font-size: 1.2em;
     color: #333;
 }
-.cart-link, .bookings-link {
+.cart-link, .bookings-link, .purchase-link {
     text-decoration: none;
-    color: #333;
+    color: white;
+}
+.cart-link, .bookings-link {
+    pointer-events: auto;
 }
 
 #search {
@@ -124,10 +128,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-.purchase-link {
-    text-decoration: none;
-    color: white;
-}
+
 #purchase p {
     margin: 10px 20px;
     padding: 10px 20px;
