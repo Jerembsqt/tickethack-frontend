@@ -21,6 +21,12 @@ body {
     align-items: center;
     padding: 0 20px;
 }
+
+#logo {
+    text-decoration: none;
+    color: green;
+
+}
 #cart-bookings {
     margin-left: 50px;
     grid-row: 1/ 2;
@@ -38,7 +44,7 @@ body {
 }
 .cart-link, .bookings-link, .purchase-link {
     text-decoration: none;
-    color: white;
+    color: #333;
 }
 .cart-link, .bookings-link {
     pointer-events: auto;
