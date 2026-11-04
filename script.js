@@ -2,13 +2,14 @@ document.querySelector('#search-button').addEventListener('click', function () {
     const departure = document.querySelector('#departure').value;
     const arrival = document.querySelector('#arrival').value;
     const date = document.querySelector('#date').value; // format AAAA-MM-JJ
-    const formattedDate = date.split('-').reverse().join('-');
+    
     
     if (!departure || !arrival || !date) {
         alert('Please fill in all fields.');
         return;
     }
-   
+    const formattedDate = date.split('-').reverse().join('-');
+    
     fetch(`http://localhost:3000/trips/search/${encodeURIComponent(departure)}/${encodeURIComponent(arrival)}/${formattedDate}`)
         .then(response => response.json())
         .then(data => {
