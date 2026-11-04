@@ -154,3 +154,36 @@ body {
     border-radius: 15px;
     background-color: white;
 }
+#results {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background: #f3e9e6;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.trip-route {
+    flex: 1;
+}
+
+.book-btn {
+    background: #3a9d7f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    opacity: 0.85;
+}
