@@ -160,6 +160,19 @@ body {
     padding: 15px;
 }
 
+#bookings-list {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f3e9e6;
+    max-height: 300px;
+    overflow-y: auto;
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .result {
     display: flex;
     align-items: center;

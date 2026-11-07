@@ -162,7 +162,6 @@ if (bookingsList) {
                 bookingDiv.innerHTML = `
                     <span class="trip-route">${trip.departure} &gt; ${trip.arrival}</span>
                     <span class="trip-time">${formatTime(trip.date)}</span>
-                    <span class="trip-price">${trip.price}€</span>
                     <span>${departureText}</span>
                 `;
                 bookingsList.appendChild(bookingDiv);
