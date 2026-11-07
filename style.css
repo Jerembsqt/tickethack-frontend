@@ -65,6 +65,8 @@ body {
 }
 
 #results {
+scrollbar-width: thin;
+scrollbar-color: #888 #f3e9e6;
     grid-row-start: 5;  
     grid-row-end: 9;
     grid-column: 8 / 11;

@@ -1,4 +1,4 @@
-const API_URL = 'https://tickethack-backend-red.vercel.app';
+const API_URL = 'http://localhost:3000'; // Remplacez par l'URL de votre backend
 
 const searchButton = document.querySelector('#search-button');
 
